@@ -1,0 +1,24 @@
+.container{
+    min-height: 300px;
+    width: 500px;
+    background-color: gainsboro;
+    padding: 30px;
+    margin-top: 20px;
+}
+.wrapper{
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+}
+.delete{
+    width: 100px;
+    height: 30px;
+   margin-left: 300px;
+   margin-top: 15px;
+}
+.links{
+    display: flex;
+}
+.links a{
+    margin-left: 10px;
+}

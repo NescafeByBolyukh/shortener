@@ -1,0 +1,22 @@
+<div class="container" *ngIf="short">
+    <div class="wrapper">
+        <h2 class="name">{{short.name}}</h2>
+        <button class="delete">Delete</button>
+    </div>
+    <div class="links">
+    <p>Original link: </p>
+    <p><a [href]="short.original_link">{{ short.original_link }}</a></p>
+</div>
+<div class="links">
+    <p>Share link: </p>
+    <p><a [href]="short.share_link">{{ short.share_link }}</a></p>
+</div>
+<div class="links">
+    <p>Short link: </p>
+    <p><a [href]="short.short_link">{{ short.short_link }}</a></p>
+</div>
+<div class="links">
+    <p>Short link #2: </p>
+    <p><a [href]="short.short_link2">{{ short.short_link2 }}</a></p>
+</div>
+</div>
